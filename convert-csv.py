@@ -8,7 +8,7 @@ import os
 import sys
 
 def main():
-	# Message Error
+    # Message Error
     if len(sys.argv) < 2:
         print '\nUsage: python convert-csv.py [output_path]\n'
 
@@ -21,7 +21,7 @@ def main():
 
     os.system('mkdir {}'.format(output_path))
 
-    # Labels names 
+    # Label names 
     label_names = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 
     # Importing dataset with np.genfromtxt()
