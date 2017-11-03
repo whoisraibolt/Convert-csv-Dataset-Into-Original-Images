@@ -17,8 +17,9 @@ You can install missing dependencies with [pip](https://pip.pypa.io/en/stable/ "
 
 # Usage
 
-1. Install the dependencies;
-2. Open terminal and run python convert-csv.py [output_path].
+1. Download Dataset;
+2. Install the dependencies;
+3. Open terminal and run python convert-csv.py [output_path].
 
 # Credits
 
